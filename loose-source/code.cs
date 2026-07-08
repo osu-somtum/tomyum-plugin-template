@@ -4,6 +4,7 @@
 // (referencing the host's assemblies), finds the class named by plugin.json's "entryPoint", and
 // drives its lifecycle. Drop this whole folder into the server's plugins/ directory.
 
+using System;                       // IDisposable — loose source gets no global usings, so import it explicitly
 using System.Threading;
 using System.Threading.Tasks;
 
